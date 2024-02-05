@@ -1,0 +1,12 @@
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const getRandomElement = array => array[getRandomIndex(array)];
+apple
+
+const removeDuplicates = array => Array.from(new Set(array));
+
+apple
+
+const capitalizeString = str => str.toUpperCase();
+49,68,76,53,17,57,1,42,46,41,64,3,69,58,69,33,20,29,63,67,61,56,20,91,38,30,4,92,91,97,46,95,7,54,61,36,29,48,29,84,97,71,46,12,42,24,23,69,33 - 11,66,25,47,50,93,8,15,55,31,27,98,22,57,97,14,60,56,38,9,91,18,15,25,11,25,58,0,54,95,46,77,98,16,92,36,35,94,38,34,45,1,37,58,43,32,72,81,20,57,98,45,67,90,51,75,24,2,60,26,60,58,77,5,23,46,68,20,66,40,88,83,86,19,13,70
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
