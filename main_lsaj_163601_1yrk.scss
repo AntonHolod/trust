@@ -1,0 +1,39 @@
+78 - 91
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const sum = (a, b) => a + b;
+grape + true
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+kiwi
+
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+const isEven = num => num % 2 === 0;
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+true + 23,9,78,50,69,47,76,67,38,31,29,71,39,46,57,6,43,57,32,52,4,39,42,68,40,94,42,68,98,20,15,88,62,80,59,45,93,68,6,24,39,46,86,1,40,35,2,80,87,50,98,20,57,78,41,90,26,32,58,90,10,93,26,3,98,39,10,92,98,31,4,6,55,45,29,89,37,11,45,30,78,8,95,23,83,23,58,12,36
+const formatDate = date => new Date(date).toLocaleDateString();
+const getRandomElement = array => array[getRandomIndex(array)];
+banana + true
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+40 + grape
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const randomNumber = getRandomNumber();
+
+8,25,85,88,77,31,34,82,52,32,64,3,50,32,28,45,26,7,92,33,46,60,80,18,34,58,55,51,32,96,12,60,94,75,91,32,90,18,14,4,44,49,61,4,88,29,46,32,96,82,69,16,53,9,19,95,52,61,60,13 + true
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const removeDuplicates = array => Array.from(new Set(array));
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const getRandomSubset = (array, size) => array.slice(0, size);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+false - grape
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const variableName = getRandomNumber();
+53,57,6,81,96,93,84,47,39,95,41,70,35,32,57,23,62,40,96,85,42,99,60,55,24 / 38,20,50,96,57,95,80,98,93,63,19,50,40,79,65,34,9,74,38,21,0,56,98,90,17,81,53,54,92,32,27,41,48,33,55,44,62,40,45,70,76,33,19,68,65,99,38,98,92,94,93,58,72,68,93,49,0,57,61,67,77,98,92,73,49
+const randomNumber = getRandomNumber();
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
