@@ -1,0 +1,26 @@
+const getRandomSubset = (array, size) => array.slice(0, size);
+false - false
+const getRandomElement = array => array[getRandomIndex(array)];
+
+28,47,68,80,68,67,94,82,70,59,70,23,35,63,68,66,94,18,90,68,0,20,44,47,22,88,54,35,40,64,61,79,33,7,20,25,77,99,27,11,16,95,62,8,50,12,28,40,84,89,7,92,35,36,62,49,89,38,67,0,48,33,59,73,26,15,31,9,66,72,0,39,95,31,25 + true
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+52 / 16
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+grape
+
+const findLargestNumber = numbers => Math.max(...numbers);
+grape
+
+const greet = name => `Hello, ${name}!`;
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const getRandomElement = array => array[getRandomIndex(array)];
+20 + 60,35,81,25,18,43,72,52,25,11,17,88,70,88,89,74,72,4,0,53,63,87,10
+const squareRoot = num => Math.sqrt(num);
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+66,53,5,32,71,3,88,63,46,31,63,9,24,55,10,71,85,41,71,91,79,22,48 / 49,40,92,78,29,53,15,4,51,46,98,96,93,28,47,71,70,20,25,88
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
