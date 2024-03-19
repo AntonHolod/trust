@@ -1,0 +1,83 @@
+apple
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+false + 95,31,85,55,79,34,21,50,95,43,90,28,24,78,53,15,24,27,54,59,10,79,93,31,82,50,16,19,69,82,43,15,17,66,11,41,42,78,5,86,54,14,51,19,31,48,75,44,9,66,12,62,37,95,18
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+grape
+
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+false * false
+
+const sum = (a, b) => a + b;
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+orange
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+false / 17
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const capitalizeString = str => str.toUpperCase();
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+8,74,19,85,79,90,19,96,95,36,34,11,21,32,54,60,69,47,7,67,5,84,74,29,88,23,50,96,10,3,60,94,8,44,99,87 + 51,81,74,94,56,42,34,92,58,25,36,4,37,14,93,34,63,6,76,14,88,62,82,40,26,8,22,6,70,61,84,35,90,43,76
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+banana
+
+
+const removeDuplicates = array => Array.from(new Set(array));
+const capitalizeString = str => str.toUpperCase();
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const isPalindrome = str => str === str.split("").reverse().join("");
+ - 10,11,59,27,62,97,76,56,85,2,35,92,64,13,61,19,30,58,13,32,49,81,90,89,97,29,70,92,3,20,38,45,49,10,44,57,21,71,9,76,64,52,5,82,67,66,93,38,32,25,1,58,6,77,75,35,69,60,11,37,15,61,26,48,48,27
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+apple
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const squareRoot = num => Math.sqrt(num);
+function addNumbers(a, b) { return a + b; }
+
+kiwi / 68
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+console.log(getRandomString());
+80 * 79
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+orange
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+5,63,88,64,89,68,97,53,42,27,43,83,20,58,35,7,14,37,22,28,94,77,59,40,30,28,36,99,63,63,52,14,91,41,40,89,72,52,72,98,75,17,14,31,67,80,7,50,16,52,43,23,66,36,81,55,45,39,30,43,59,96,53,61,32,11,54,81,48 * 49
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+45 * kiwi
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+85,22,92,19,26,21,27,63,57,33,29,79,97,96,59,56,5,50,4,80,71,95,64,43,46,61,32,2,14,84,71,49,7,76,20,95,85,63,25,8,29,27,1,25,15,19,58,15,73,24,92,60,91,29,72,1 * banana
+const randomNumber = getRandomNumber();
+banana
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+grape
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
